@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sketches</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+
+            text-align: center;
+
+            background-color: lavender;
+            margin: 0;
+            padding: 20px;
+        }
+     
+
+        h1 {
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .instagram-link {
+            margin: 30px;
+            padding: 10px 20px;
+            background-color: #E1306C;
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .instagram-link:hover {
+            background-color: #C13584;
+        }
+
+        .hosted-by {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-top: 2px solid #333;
+            font-size: 18px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+
+
+        /* New Artist Section Styling */
+        .artist-section {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .artist-section img {
+            width: 20px; 
+            height: auto;
+            border-radius: 50%; 
+            margin-bottom: 20px;
+            /* width: 300px;
+            height: auto;
+            margin: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            animation: float 6s ease-in-out infinite; */
+
+
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <!-- <img src="im5.jpeg" class="floating-bg" alt="Floating Background" /> -->
+    <h1>Welcome to My Sketch Gallery</h1>
+
+
+
+    <!-- Main Images Section -->
+    <div class="main-images">
+        <img src="im1.jpeg" alt="Main Image 1">
+        <img src="im2.jpeg" alt="Main Image 2">
+    </div>
+    <!-- <a href="#contact" class="cta-button">Request Your Free Sketch!</a> -->
+
+    <div class="gallery">
+        <!-- <img src="im1.jpeg" alt="Sketch 1">
+        <img src="im2.jpeg" alt="Sketch 1"> -->
+        <img src="im3.jpeg" alt="Sketch 1">
+        <img src="im4.jpeg" alt="Sketch 1">
+        <img src="im5.jpeg" alt="Sketch 1">
+        <img src="im6.jpeg" alt="Sketch 1">
+        <img src="im7.jpeg" alt="Sketch 1">
+        <img src="im8.jpeg" alt="Sketch 1">
+        <img src="im9.jpeg" alt="Sketch 1">
+        <!-- <img src="im1.jpeg" alt="Sketch 1"> -->
+
+    </div>
+
+    <a href="https://www.instagram.com/intermediate.artist/" class="instagram-link" target="_blank">
+        Get your sketch
+    </a>
+
+
+    <div class="artist-section"></div>
+        <img src="im10.png" alt="Artist Picture">
+        <h2>Divyansh Tiwari</h2>
+        <p>Artist | Designer | Illustrator. Inhale possibilities, exhale creativity.
+            Exploring the endless art & design.
+            Navodayan...</p>
+    </div>
+
+
+    <div class="hosted-by">
+        Hosted by <strong>Love Patidar</strong> | Instagram: <a href="https://www.instagram.com/love_patidar527/" target="_blank">LOVE PATIDAR</a>
+    </div>
+
+
+
+
+
+
+    <footer>
+        &copy; 2024 love patidar. All Rights Reserved.
+    </footer>
+</body>
+</html>
