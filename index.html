@@ -42,6 +42,38 @@
         }
 
 
+
+
+
+        /* Styles for devices with a maximum width of 768px (tablets and mobile) */
+        @media only screen and (max-width: 768px) {
+            body {
+                font-size: 14px; /* Adjust font size */
+                padding: 10px;   /* Add padding for better spacing */
+            }
+        
+            h1, h2, h3 {
+                font-size: 1.5em; /* Adjust heading sizes */
+            }
+        
+            img {
+                max-width: 100%; /* Ensure images are responsive */
+                height: auto;    /* Maintain aspect ratio */
+            }
+        
+            .container {
+                display: flex;
+                flex-direction: column; /* Stack items vertically */
+                align-items: center;    /* Center items */
+            }
+        }
+
+
+
+
+
+        
+
         @keyframes float {
             0% {
                 transform: translateY(0px);
